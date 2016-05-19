@@ -1,12 +1,12 @@
 name := "nak"
 
-version := "1.3"
+version := "1.3.1"
 
 organization := "org.scalanlp"
 
-scalaVersion := "2.11.1"
+scalaVersion := "2.11.8"
 
-crossScalaVersions  := Seq("2.11.1", "2.10.4")
+//crossScalaVersions  := Seq("2.11.8", "2.10.4")
 
 resolvers ++= Seq(
   Resolver.mavenLocal,
@@ -19,8 +19,8 @@ libraryDependencies ++= Seq(
   "org.scalanlp" %% "breeze-config" % "0.9.1",
   "org.scalanlp" %% "breeze-natives" % "0.8" % "test, runtime",
   "org.rogach" %% "scallop" % "0.9.5",
-  "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2",
-  "org.apache.logging.log4j" % "log4j-core" % "2.0-beta8" % "test, runtime",
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.3.0",
+  "org.apache.logging.log4j" % "log4j-core" % "2.4.1" % "test, runtime",
   "org.scalatest" %% "scalatest" % "2.1.3" % "test",
   "org.scalacheck" %% "scalacheck" % "1.11.3" % "test"
 )

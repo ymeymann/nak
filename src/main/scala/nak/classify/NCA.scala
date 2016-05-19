@@ -5,14 +5,14 @@ import breeze.collection.mutable.Beam
 import breeze.linalg.operators.OpMulMatrix
 import breeze.linalg.support.{CanTranspose, CanTraverseValues}
 import breeze.linalg._
-import breeze.math.{MutableRestrictedDomainTensorField, MutableVectorField, MutableInnerProductModule, MutableVectorSpace}
+import breeze.math.{MutableInnerProductModule, MutableRestrictedDomainTensorField, MutableVectorField, MutableVectorSpace}
 import breeze.optimize.FirstOrderMinimizer.OptParams
 import breeze.optimize._
-import com.typesafe.scalalogging.slf4j.LazyLogging
 import nak.classify.Initializers._
 import nak.data.Example
 import nak.space.DMImplicits
 import DMImplicits.decomposedMahalanobis
+import com.typesafe.scalalogging.LazyLogging
 import nak.space.nca.NCAObjectives._
 import nak.space.nca.NCAObjectives.{Iso_CSC_SV, Iso_DM_DV}
 

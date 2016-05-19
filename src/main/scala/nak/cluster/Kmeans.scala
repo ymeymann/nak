@@ -15,16 +15,17 @@
 */
 package nak.cluster
 
-import breeze.math.{MutableInnerProductVectorSpace}
+import breeze.math.MutableInnerProductVectorSpace
 import breeze.numerics._
 import breeze.linalg._
 import breeze.util._
 import breeze.util.Implicits._
+
 import collection.mutable.ArrayBuffer
 import breeze.stats.distributions.Multinomial
-import com.typesafe.scalalogging.slf4j.LazyLogging
-import scala.util.Random
+import com.typesafe.scalalogging.LazyLogging
 
+import scala.util.Random
 import nak.util.CollectionUtil._
 
 /**

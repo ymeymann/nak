@@ -23,7 +23,8 @@ import breeze.numerics._
 import breeze.stats.distributions.Rand
 import breeze.math.MutableVectorField
 import breeze.util.Index
-import com.typesafe.scalalogging.slf4j.LazyLogging
+import com.typesafe.scalalogging.LazyLogging
+
 import scala.reflect.ClassTag
 
 
